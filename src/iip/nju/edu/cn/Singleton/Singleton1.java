@@ -2,7 +2,7 @@ package iip.nju.edu.cn.Singleton;
 
 /***
  * 
- * ˫�ؼ��ʵ�ֵ���ģʽ
+ * 双重检查实现代理模式
  * 
  * @author mayday
  *
