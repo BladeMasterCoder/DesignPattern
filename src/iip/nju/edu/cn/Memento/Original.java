@@ -1,0 +1,26 @@
+package iip.nju.edu.cn.Memento;
+
+public class Original {
+	
+	private String value;
+	
+	public String getValue() {
+		return value;
+	}
+
+	public void setValue(String value) {
+		this.value = value;
+	}
+
+	public Original(String value) {
+		this.value = value;
+	}
+
+	public Memento createMemento(){
+		return new Memento(this);
+	}
+	
+	public void restoreMemento(Memento memento){
+		this.value = memento.getValue();
+	}
+}
